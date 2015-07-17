@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ocw-0X-by8">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Lbz-6d-pNl">
+            <objects>
+                <viewController id="Ocw-0X-by8" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3n1-RM-2b5"/>
+                        <viewControllerLayoutGuide type="bottom" id="BIM-yJ-4GQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tff-kn-uCQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1s7-V5-HpU">
+                                <rect key="frame" x="252" y="30" width="96" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="fbF-7l-EnW"/>
+                                    <constraint firstAttribute="width" constant="96" id="oag-q4-ppB"/>
+                                </constraints>
+                                <state key="normal" title="Select Photos">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectPressed:" destination="Ocw-0X-by8" eventType="touchUpInside" id="px1-RV-AVV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKr-bX-EYT">
+                                <rect key="frame" x="16" y="68" width="568" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="zCD-68-Bf5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.2784313725" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="YwY-6F-5JH">
+                                <rect key="frame" x="0.0" y="107" width="600" height="493"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Ocw-0X-by8" id="PaI-Cm-xBY"/>
+                                    <outlet property="delegate" destination="Ocw-0X-by8" id="Viw-Dr-pKI"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iKr-bX-EYT" firstAttribute="top" secondItem="1s7-V5-HpU" secondAttribute="bottom" constant="8" id="7da-gv-cgV"/>
+                            <constraint firstItem="YwY-6F-5JH" firstAttribute="top" secondItem="iKr-bX-EYT" secondAttribute="bottom" constant="18" id="GBI-lp-2cE"/>
+                            <constraint firstItem="1s7-V5-HpU" firstAttribute="top" secondItem="3n1-RM-2b5" secondAttribute="bottom" constant="10" id="Goa-0P-8wm"/>
+                            <constraint firstAttribute="centerX" secondItem="1s7-V5-HpU" secondAttribute="centerX" id="XSw-2E-my9"/>
+                            <constraint firstItem="YwY-6F-5JH" firstAttribute="leading" secondItem="tff-kn-uCQ" secondAttribute="leading" id="k2K-0Z-7dc"/>
+                            <constraint firstItem="iKr-bX-EYT" firstAttribute="leading" secondItem="tff-kn-uCQ" secondAttribute="leadingMargin" id="oJL-p0-LPQ"/>
+                            <constraint firstItem="BIM-yJ-4GQ" firstAttribute="top" secondItem="YwY-6F-5JH" secondAttribute="bottom" id="u6V-Ny-rGK"/>
+                            <constraint firstAttribute="trailing" secondItem="YwY-6F-5JH" secondAttribute="trailing" id="vAf-SE-FpT"/>
+                            <constraint firstItem="iKr-bX-EYT" firstAttribute="trailing" secondItem="tff-kn-uCQ" secondAttribute="trailingMargin" id="yUp-NT-78T"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bkZ-Aa-pBF"/>
+                    <connections>
+                        <outlet property="assetsTableView" destination="YwY-6F-5JH" id="3WZ-Bj-AXG"/>
+                        <outlet property="infoLabel" destination="iKr-bX-EYT" id="VId-yJ-Yfe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lJM-Sh-rDR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1309" y="429"/>
+        </scene>
+    </scenes>
+</document>

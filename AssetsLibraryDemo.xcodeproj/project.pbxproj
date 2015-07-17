@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB6CA81D1B57CF6C00B7DEBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6CA81C1B57CF6C00B7DEBB /* Main.storyboard */; };
 		CBBF0F101AF10523001D5381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBF0F0F1AF10523001D5381 /* main.m */; };
 		CBBF0F131AF10523001D5381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBF0F121AF10523001D5381 /* AppDelegate.m */; };
 		CBBF0F161AF10523001D5381 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBF0F151AF10523001D5381 /* ViewController.m */; };
-		CBBF0F191AF10523001D5381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBF0F171AF10523001D5381 /* Main.storyboard */; };
 		CBBF0F1B1AF10523001D5381 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBF0F1A1AF10523001D5381 /* Images.xcassets */; };
 		CBBF0F1E1AF10523001D5381 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBBF0F1C1AF10523001D5381 /* LaunchScreen.xib */; };
 		CBBF0F2A1AF10523001D5381 /* AssetsLibraryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBF0F291AF10523001D5381 /* AssetsLibraryDemoTests.m */; };
+		CBBF0F341AF10537001D5381 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBF0F331AF10537001D5381 /* AssetsLibrary.framework */; };
+		CBF135341B58FB5B00D75AD3 /* BRImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF134FB1B58FB5B00D75AD3 /* BRImagePicker.m */; };
+		CBF135351B58FB5B00D75AD3 /* BRPhotoPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF134FC1B58FB5B00D75AD3 /* BRPhotoPicker.storyboard */; };
+		CBF135361B58FB5B00D75AD3 /* BRPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF134FF1B58FB5B00D75AD3 /* BRPhotoPickerController.m */; };
+		CBF135371B58FB5B00D75AD3 /* BRPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF135011B58FB5B00D75AD3 /* BRPreviewViewController.m */; };
+		CBF135381B58FB5B00D75AD3 /* BR_ImageInfo+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF135041B58FB5B00D75AD3 /* BR_ImageInfo+Image.m */; };
+		CBF135391B58FB5B00D75AD3 /* UIImage+ResizeMagick.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF135061B58FB5B00D75AD3 /* UIImage+ResizeMagick.m */; };
+		CBF1353A1B58FB5B00D75AD3 /* BR_AssetsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF135091B58FB5B00D75AD3 /* BR_AssetsInfo.m */; };
+		CBF1353B1B58FB5B00D75AD3 /* BR_ImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF1350B1B58FB5B00D75AD3 /* BR_ImageInfo.m */; };
+		CBF1353C1B58FB5B00D75AD3 /* PECropRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF135101B58FB5B00D75AD3 /* PECropRectView.m */; };
+		CBF1353D1B58FB5B00D75AD3 /* PECropView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF135121B58FB5B00D75AD3 /* PECropView.m */; };
+		CBF1353E1B58FB5B00D75AD3 /* PECropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF135141B58FB5B00D75AD3 /* PECropViewController.m */; };
+		CBF1353F1B58FB5B00D75AD3 /* PEResizeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF135161B58FB5B00D75AD3 /* PEResizeControl.m */; };
+		CBF135401B58FB5B00D75AD3 /* UIImage+PECrop.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF135181B58FB5B00D75AD3 /* UIImage+PECrop.m */; };
+		CBF135411B58FB5B00D75AD3 /* PEPhotoCropEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBF1351A1B58FB5B00D75AD3 /* PEPhotoCropEditor.bundle */; };
+		CBF135421B58FB5B00D75AD3 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1351C1B58FB5B00D75AD3 /* add.png */; };
+		CBF135431B58FB5B00D75AD3 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1351D1B58FB5B00D75AD3 /* check.png */; };
+		CBF135441B58FB5B00D75AD3 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1351E1B58FB5B00D75AD3 /* check@2x.png */; };
+		CBF135451B58FB5B00D75AD3 /* crop.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF1351F1B58FB5B00D75AD3 /* crop.png */; };
+		CBF135461B58FB5B00D75AD3 /* Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF135201B58FB5B00D75AD3 /* Delete.png */; };
+		CBF1354D1B58FB5B00D75AD3 /* BRPhotosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF135311B58FB5B00D75AD3 /* BRPhotosCell.m */; };
+		CBF1354E1B58FB5B00D75AD3 /* BRPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF135331B58FB5B00D75AD3 /* BRPreviewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB6CA81C1B57CF6C00B7DEBB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CBBF0F0A1AF10523001D5381 /* AssetsLibraryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetsLibraryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBF0F0E1AF10523001D5381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBBF0F0F1AF10523001D5381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +57,47 @@
 		CBBF0F121AF10523001D5381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CBBF0F141AF10523001D5381 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CBBF0F151AF10523001D5381 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CBBF0F181AF10523001D5381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBBF0F1A1AF10523001D5381 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CBBF0F1D1AF10523001D5381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CBBF0F231AF10523001D5381 /* AssetsLibraryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssetsLibraryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBF0F281AF10523001D5381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBBF0F291AF10523001D5381 /* AssetsLibraryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetsLibraryDemoTests.m; sourceTree = "<group>"; };
+		CBBF0F331AF10537001D5381 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CBF134FA1B58FB5B00D75AD3 /* BRImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRImagePicker.h; sourceTree = "<group>"; };
+		CBF134FB1B58FB5B00D75AD3 /* BRImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRImagePicker.m; sourceTree = "<group>"; };
+		CBF134FC1B58FB5B00D75AD3 /* BRPhotoPicker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BRPhotoPicker.storyboard; sourceTree = "<group>"; };
+		CBF134FE1B58FB5B00D75AD3 /* BRPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPhotoPickerController.h; sourceTree = "<group>"; };
+		CBF134FF1B58FB5B00D75AD3 /* BRPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPhotoPickerController.m; sourceTree = "<group>"; };
+		CBF135001B58FB5B00D75AD3 /* BRPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPreviewViewController.h; sourceTree = "<group>"; };
+		CBF135011B58FB5B00D75AD3 /* BRPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPreviewViewController.m; sourceTree = "<group>"; };
+		CBF135031B58FB5B00D75AD3 /* BR_ImageInfo+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BR_ImageInfo+Image.h"; sourceTree = "<group>"; };
+		CBF135041B58FB5B00D75AD3 /* BR_ImageInfo+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BR_ImageInfo+Image.m"; sourceTree = "<group>"; };
+		CBF135051B58FB5B00D75AD3 /* UIImage+ResizeMagick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeMagick.h"; sourceTree = "<group>"; };
+		CBF135061B58FB5B00D75AD3 /* UIImage+ResizeMagick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeMagick.m"; sourceTree = "<group>"; };
+		CBF135081B58FB5B00D75AD3 /* BR_AssetsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BR_AssetsInfo.h; sourceTree = "<group>"; };
+		CBF135091B58FB5B00D75AD3 /* BR_AssetsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BR_AssetsInfo.m; sourceTree = "<group>"; };
+		CBF1350A1B58FB5B00D75AD3 /* BR_ImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BR_ImageInfo.h; sourceTree = "<group>"; };
+		CBF1350B1B58FB5B00D75AD3 /* BR_ImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BR_ImageInfo.m; sourceTree = "<group>"; };
+		CBF1350F1B58FB5B00D75AD3 /* PECropRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PECropRectView.h; sourceTree = "<group>"; };
+		CBF135101B58FB5B00D75AD3 /* PECropRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PECropRectView.m; sourceTree = "<group>"; };
+		CBF135111B58FB5B00D75AD3 /* PECropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PECropView.h; sourceTree = "<group>"; };
+		CBF135121B58FB5B00D75AD3 /* PECropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PECropView.m; sourceTree = "<group>"; };
+		CBF135131B58FB5B00D75AD3 /* PECropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PECropViewController.h; sourceTree = "<group>"; };
+		CBF135141B58FB5B00D75AD3 /* PECropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PECropViewController.m; sourceTree = "<group>"; };
+		CBF135151B58FB5B00D75AD3 /* PEResizeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEResizeControl.h; sourceTree = "<group>"; };
+		CBF135161B58FB5B00D75AD3 /* PEResizeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEResizeControl.m; sourceTree = "<group>"; };
+		CBF135171B58FB5B00D75AD3 /* UIImage+PECrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PECrop.h"; sourceTree = "<group>"; };
+		CBF135181B58FB5B00D75AD3 /* UIImage+PECrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PECrop.m"; sourceTree = "<group>"; };
+		CBF1351A1B58FB5B00D75AD3 /* PEPhotoCropEditor.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PEPhotoCropEditor.bundle; sourceTree = "<group>"; };
+		CBF1351C1B58FB5B00D75AD3 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		CBF1351D1B58FB5B00D75AD3 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		CBF1351E1B58FB5B00D75AD3 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		CBF1351F1B58FB5B00D75AD3 /* crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crop.png; sourceTree = "<group>"; };
+		CBF135201B58FB5B00D75AD3 /* Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Delete.png; sourceTree = "<group>"; };
+		CBF135301B58FB5B00D75AD3 /* BRPhotosCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPhotosCell.h; sourceTree = "<group>"; };
+		CBF135311B58FB5B00D75AD3 /* BRPhotosCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPhotosCell.m; sourceTree = "<group>"; };
+		CBF135321B58FB5B00D75AD3 /* BRPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPreviewCell.h; sourceTree = "<group>"; };
+		CBF135331B58FB5B00D75AD3 /* BRPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPreviewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBF0F341AF10537001D5381 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +122,7 @@
 		CBBF0F011AF10523001D5381 = {
 			isa = PBXGroup;
 			children = (
+				CBBF0F331AF10537001D5381 /* AssetsLibrary.framework */,
 				CBBF0F0C1AF10523001D5381 /* AssetsLibraryDemo */,
 				CBBF0F261AF10523001D5381 /* AssetsLibraryDemoTests */,
 				CBBF0F0B1AF10523001D5381 /* Products */,
@@ -85,7 +145,8 @@
 				CBBF0F121AF10523001D5381 /* AppDelegate.m */,
 				CBBF0F141AF10523001D5381 /* ViewController.h */,
 				CBBF0F151AF10523001D5381 /* ViewController.m */,
-				CBBF0F171AF10523001D5381 /* Main.storyboard */,
+				CB6CA81C1B57CF6C00B7DEBB /* Main.storyboard */,
+				CBF134F91B58FB5B00D75AD3 /* BRImagePicker */,
 				CBBF0F1A1AF10523001D5381 /* Images.xcassets */,
 				CBBF0F1C1AF10523001D5381 /* LaunchScreen.xib */,
 				CBBF0F0D1AF10523001D5381 /* Supporting Files */,
@@ -117,6 +178,120 @@
 				CBBF0F281AF10523001D5381 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBF134F91B58FB5B00D75AD3 /* BRImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				CBF134FA1B58FB5B00D75AD3 /* BRImagePicker.h */,
+				CBF134FB1B58FB5B00D75AD3 /* BRImagePicker.m */,
+				CBF134FC1B58FB5B00D75AD3 /* BRPhotoPicker.storyboard */,
+				CBF134FD1B58FB5B00D75AD3 /* Controller */,
+				CBF135021B58FB5B00D75AD3 /* Extension */,
+				CBF135071B58FB5B00D75AD3 /* Model */,
+				CBF1350C1B58FB5B00D75AD3 /* Resource */,
+				CBF1352F1B58FB5B00D75AD3 /* Views */,
+			);
+			path = BRImagePicker;
+			sourceTree = "<group>";
+		};
+		CBF134FD1B58FB5B00D75AD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBF134FE1B58FB5B00D75AD3 /* BRPhotoPickerController.h */,
+				CBF134FF1B58FB5B00D75AD3 /* BRPhotoPickerController.m */,
+				CBF135001B58FB5B00D75AD3 /* BRPreviewViewController.h */,
+				CBF135011B58FB5B00D75AD3 /* BRPreviewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBF135021B58FB5B00D75AD3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CBF135031B58FB5B00D75AD3 /* BR_ImageInfo+Image.h */,
+				CBF135041B58FB5B00D75AD3 /* BR_ImageInfo+Image.m */,
+				CBF135051B58FB5B00D75AD3 /* UIImage+ResizeMagick.h */,
+				CBF135061B58FB5B00D75AD3 /* UIImage+ResizeMagick.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CBF135071B58FB5B00D75AD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBF135081B58FB5B00D75AD3 /* BR_AssetsInfo.h */,
+				CBF135091B58FB5B00D75AD3 /* BR_AssetsInfo.m */,
+				CBF1350A1B58FB5B00D75AD3 /* BR_ImageInfo.h */,
+				CBF1350B1B58FB5B00D75AD3 /* BR_ImageInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBF1350C1B58FB5B00D75AD3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1350D1B58FB5B00D75AD3 /* ImageCropper */,
+				CBF1351B1B58FB5B00D75AD3 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CBF1350D1B58FB5B00D75AD3 /* ImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1350E1B58FB5B00D75AD3 /* Lib */,
+				CBF135191B58FB5B00D75AD3 /* Resources */,
+			);
+			path = ImageCropper;
+			sourceTree = "<group>";
+		};
+		CBF1350E1B58FB5B00D75AD3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1350F1B58FB5B00D75AD3 /* PECropRectView.h */,
+				CBF135101B58FB5B00D75AD3 /* PECropRectView.m */,
+				CBF135111B58FB5B00D75AD3 /* PECropView.h */,
+				CBF135121B58FB5B00D75AD3 /* PECropView.m */,
+				CBF135131B58FB5B00D75AD3 /* PECropViewController.h */,
+				CBF135141B58FB5B00D75AD3 /* PECropViewController.m */,
+				CBF135151B58FB5B00D75AD3 /* PEResizeControl.h */,
+				CBF135161B58FB5B00D75AD3 /* PEResizeControl.m */,
+				CBF135171B58FB5B00D75AD3 /* UIImage+PECrop.h */,
+				CBF135181B58FB5B00D75AD3 /* UIImage+PECrop.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		CBF135191B58FB5B00D75AD3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1351A1B58FB5B00D75AD3 /* PEPhotoCropEditor.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CBF1351B1B58FB5B00D75AD3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1351C1B58FB5B00D75AD3 /* add.png */,
+				CBF1351D1B58FB5B00D75AD3 /* check.png */,
+				CBF1351E1B58FB5B00D75AD3 /* check@2x.png */,
+				CBF1351F1B58FB5B00D75AD3 /* crop.png */,
+				CBF135201B58FB5B00D75AD3 /* Delete.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CBF1352F1B58FB5B00D75AD3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CBF135301B58FB5B00D75AD3 /* BRPhotosCell.h */,
+				CBF135311B58FB5B00D75AD3 /* BRPhotosCell.m */,
+				CBF135321B58FB5B00D75AD3 /* BRPreviewCell.h */,
+				CBF135331B58FB5B00D75AD3 /* BRPreviewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +374,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBBF0F191AF10523001D5381 /* Main.storyboard in Resources */,
+				CB6CA81D1B57CF6C00B7DEBB /* Main.storyboard in Resources */,
+				CBF135431B58FB5B00D75AD3 /* check.png in Resources */,
+				CBF135351B58FB5B00D75AD3 /* BRPhotoPicker.storyboard in Resources */,
+				CBF135441B58FB5B00D75AD3 /* check@2x.png in Resources */,
+				CBF135411B58FB5B00D75AD3 /* PEPhotoCropEditor.bundle in Resources */,
 				CBBF0F1E1AF10523001D5381 /* LaunchScreen.xib in Resources */,
 				CBBF0F1B1AF10523001D5381 /* Images.xcassets in Resources */,
+				CBF135461B58FB5B00D75AD3 /* Delete.png in Resources */,
+				CBF135421B58FB5B00D75AD3 /* add.png in Resources */,
+				CBF135451B58FB5B00D75AD3 /* crop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +401,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF1353E1B58FB5B00D75AD3 /* PECropViewController.m in Sources */,
+				CBF135341B58FB5B00D75AD3 /* BRImagePicker.m in Sources */,
+				CBF135391B58FB5B00D75AD3 /* UIImage+ResizeMagick.m in Sources */,
+				CBF1353A1B58FB5B00D75AD3 /* BR_AssetsInfo.m in Sources */,
+				CBF135371B58FB5B00D75AD3 /* BRPreviewViewController.m in Sources */,
+				CBF1353C1B58FB5B00D75AD3 /* PECropRectView.m in Sources */,
 				CBBF0F161AF10523001D5381 /* ViewController.m in Sources */,
+				CBF1353D1B58FB5B00D75AD3 /* PECropView.m in Sources */,
+				CBF135361B58FB5B00D75AD3 /* BRPhotoPickerController.m in Sources */,
+				CBF1353F1B58FB5B00D75AD3 /* PEResizeControl.m in Sources */,
+				CBF1354E1B58FB5B00D75AD3 /* BRPreviewCell.m in Sources */,
+				CBF135381B58FB5B00D75AD3 /* BR_ImageInfo+Image.m in Sources */,
 				CBBF0F131AF10523001D5381 /* AppDelegate.m in Sources */,
+				CBF1353B1B58FB5B00D75AD3 /* BR_ImageInfo.m in Sources */,
 				CBBF0F101AF10523001D5381 /* main.m in Sources */,
+				CBF135401B58FB5B00D75AD3 /* UIImage+PECrop.m in Sources */,
+				CBF1354D1B58FB5B00D75AD3 /* BRPhotosCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +440,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CBBF0F171AF10523001D5381 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBBF0F181AF10523001D5381 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CBBF0F1C1AF10523001D5381 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -344,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AssetsLibraryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +543,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AssetsLibraryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +602,7 @@
 				CBBF0F2F1AF10523001D5381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBBF0F301AF10523001D5381 /* Build configuration list for PBXNativeTarget "AssetsLibraryDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +611,7 @@
 				CBBF0F321AF10523001D5381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
